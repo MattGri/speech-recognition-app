@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-color: #000066;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 800px;
+}
+
+.wrapper .title {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.wrapper .text {
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.wrapper .inputValue {
+  outline: none;
+  color: #fff;
+  padding: 10px;
+  background-color: #000066;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom: 1px solid #fff;
+}
+
+.wrapper .inputValue::placeholder {
+  color: #fff;
+}
+
+.wrapper .startBtn {
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background-color: #000066;
+  display: block;
+  margin: 10px auto 0 auto;
+  transition: 0.5s;
+  padding: 10px 20px;
+}
+
+.wrapper .startBtn:hover {
+  background-color: #fff;
+  color: #000066;
+}
+
+.wrapper .results {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .wrapper .results {
+    width: auto;
+  }
+
+  .wrapper {
+    width: auto;
+  }
+}
+
+@media (max-width: 490px) {
+  .wrapper .results {
+    justify-content: center;
+  }
+}
