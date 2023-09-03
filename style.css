@@ -68,6 +68,24 @@ body {
   flex-wrap: wrap;
 }
 
+.wrapper .results .imageUrl {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  display: block;
+}
+
+.wrapper .results .productName {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper .results .productPrice {
+  color: #fff;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .wrapper .results {
     width: auto;
