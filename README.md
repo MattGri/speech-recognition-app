@@ -23,5 +23,5 @@ If you have any issues, please let me know on mateusz.grzybowski98@gmail.com
 
 # Live 📍
 
-You can visit website here: https://main--melodic-croquembouche-766881.netlify.app/
+You can visit website here: https://speech-recognition-app-project.netlify.app/
 
