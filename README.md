@@ -9,7 +9,7 @@ Once you enter something into the input field, it will start searching using the
 
 # Installation 💾
 
-`git clone https://github.com/MattGri/speech-recognition-app.git`
+Clone the repository `git clone https://github.com/MattGri/speech-recognition-app.git`
 
 # Screenshots 📺
 
